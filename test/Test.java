@@ -1,10 +1,15 @@
 package test;
 
-public class Test {
+public class Test extends MijnAbstractClas{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+	}
 
+	@Override
+	public String method() {
+		// TODO Auto-generated method stub
+		return "text";
 	}
 
 }
